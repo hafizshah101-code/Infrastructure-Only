@@ -12,6 +12,9 @@ else
     DISTRIBUTION_ID="$MY_CLOUDFRONT_ID"
 fi
 
+echo "📁 Files that will be deployed:"
+find "$LOCAL_DIST_FOLDER" -type f
+echo ""
 
 echo "📦 Starting deployment for ${BUCKET_NAME}..."
 
@@ -41,4 +44,3 @@ else
     echo "❌ Error: CloudFront invalidation failed."
     exit 1
 fi
-
