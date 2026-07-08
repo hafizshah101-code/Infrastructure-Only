@@ -8,7 +8,7 @@ A production-ready, secure, and fully automated multi-cloud frontend infrastruct
 - **DNS & Edge Layer Security:** Cloudflare DNS configured with Full (strict) SSL/TLS encryption to eliminate edge redirect loops and mitigate Denial-of-Wallet (DoW) billing vulnerabilities.
 - **Access Control:** AWS Origin Access Control (OAC) to enforce the Principle of Least Privilege, completely isolating the underlying S3 bucket from raw public traffic.
 
-![Architecture](./aws-serverless-architecture.png)
+![Architecture](https://raw.githubusercontent.com/hafizshah101-code/Infrastructure-Only/refs/heads/main/aws-serverless-architecture.png)
 
 
 ## 🚀 DevOps Automation (CI/CD)
